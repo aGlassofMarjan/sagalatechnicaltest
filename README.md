@@ -2,6 +2,10 @@
 
 This is my submission answer for the Frontend Developer Position
 
+## Hosted Links
+
+client https://sagalatechnicaltest.vercel.app/
+
 ## Run Locally
 
 Clone the project
@@ -13,7 +17,8 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd client
+  cd client # with tailwindcss
+  cd clientscss # with SCSS
 ```
 
 Install dependencies
@@ -39,9 +44,8 @@ Start the server
 
 ## Tech Stack
 
-Next.js, SASS,
-
-_For this test i did not use Tailwind CSS, as per job requirement the use of CSS preprocessor is mentioned._
+client: Next.js, TailwindCSS
+clientscss: Next.js, SASS
 
 ## Specification
 
