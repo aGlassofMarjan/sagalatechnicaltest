@@ -106,10 +106,10 @@ const Home = () => {
                           <Search />
                         </label>
                         <button
-                          className="btn btn-primary"
+                          className="btn btn-primary p-4"
                           onClick={addDummyData}
                         >
-                          +
+                          <p className="font-black">+</p>
                         </button>
                         <Navigation />
                       </div>
