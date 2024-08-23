@@ -30,7 +30,6 @@ const Test = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredData, setFilteredData] = useState([]);
 
-
   const deleteData = (id) => {
     const updatedData = data.filter((item) => item.id !== id);
     // update to new data
