@@ -95,7 +95,6 @@ const Home = () => {
                       </div>
 
                       <div className="flex items-center gap-2">
-
                         <label className="input input-bordered flex items-center gap-2 w-60 md:w-48 lg:w-64">
                           <input
                             type="text"

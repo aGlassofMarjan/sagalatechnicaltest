@@ -1,35 +1,8 @@
 "use client"
 
-import { useEffect, useState } from "react";
 import Delete from "../icons/Delete";
 
 const CheckTable = ({ data, onDelete }) => {
-  console.log(data)
-  // console.log(data, "<<<<<<<< checktable")
-  // const [randomValues, setRandomValues] = useState([]);
-  // let [quantity, setQuantity] = useState(0)
-  // let [percentage, setPercentage] = useState(0)
-
-  // console.log(randomValues, "rando")
-
-  // function randomQuantity() {
-  //   return Math.round(Math.random() * (9000 - 500) + 500);
-  // }
-
-  // function randomPercentage() {
-  //   return Math.round(Math.random() * (100 - 20) + 20);
-  // }
-
-
-
-  // useEffect(() => {
-  //   setQuantity = randomQuantity()
-  //   setPercentage = randomPercentage()
-  //   // setRandomValues(newValues);
-  // }, [data, quantity, percentage]);
-
-
-
   return (
     <>
       <div className="sm:col-span-2 md:col-span-2">

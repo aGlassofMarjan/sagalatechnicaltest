@@ -1,8 +1,8 @@
 const ComplexTable = ({ data }) => {
   const getTextColor = (platform) => {
-    if (platform === "Android") return "badge badge-primary";  // Green for Android
-    if (platform === "Microsoft") return "badge badge-secondary"; // Maroon for Microsoft
-    return "badge badge-accent"; // Default text color for other platforms
+    if (platform === "Android") return "badge badge-primary";
+    if (platform === "Microsoft") return "badge badge-secondary";
+    return "badge badge-accent";
   };
 
   return (
