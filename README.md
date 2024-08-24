@@ -4,7 +4,7 @@ This is my submission answer for the Frontend Developer Position
 
 ## Hosted Links
 
-client https://sagalatechnicaltest.vercel.app/
+client: https://sagalatechnicaltest.vercel.app/
 
 ## Run Locally
 
