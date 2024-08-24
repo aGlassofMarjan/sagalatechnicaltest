@@ -78,7 +78,7 @@ const Home = () => {
         <div className="drawer-content flex flex-col items-center justify-center">
           {/* Page content here */}
 
-          <section className=" w-full">
+          <section className="w-full">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
               <div className="max-w-5xl mx-auto mt-12 sm:mt-16">
                 <div className="w-full">
@@ -137,7 +137,7 @@ const Home = () => {
             </div>
           </section>
         </div>
-        <div className="drawer-side z-20 w-1/3">
+        <div className="drawer-side z-20">
           <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
           <Sidebar />
         </div>
