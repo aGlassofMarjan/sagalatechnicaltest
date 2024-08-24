@@ -41,7 +41,7 @@ const CheckTable = ({ data, onDelete }) => {
                   <td>{item.quantity}</td>
                   <td>{item.date}</td>
                   <th>
-                    <button onClick={() => onDelete(item.id)} className="btn btn-ghost btn-xs"> <Delete /> </button>
+                    <button onClick={() => onDelete(item.id)} className="btn btn-ghost btn-xs text-red-600"> <Delete /> </button>
                   </th>
                 </tr>
               ))}

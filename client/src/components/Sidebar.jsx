@@ -29,7 +29,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a>
+          <a className="bg-primary">
             <Chart />
             <p>Data Tables</p>
           </a>
